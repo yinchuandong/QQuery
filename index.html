@@ -11,13 +11,22 @@ window.onload = function(){
 	
 	var main = $$("#main");
 	main.appendChild("append");
+	console.log(main);
 
 	var test = $$("#main")[0];
-	console.log(test)
+	console.log(test);
 
+	var p = $$('.content');
+	console.log(p);
 }
 
 </script>
 	<h1 id="main">It works!</h1>
+	<div class="content">
+		<p>Hello!</p>
+	</div>
+	<div class="content">
+		<p>Hello2Q</p>
+	</div>
 </body>
 </html>
